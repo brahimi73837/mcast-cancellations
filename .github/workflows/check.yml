@@ -2,9 +2,9 @@ name: Check MCAST cancelled lectures
 
 on:
   schedule:
-    # Runs at 05:45 UTC (07:45 Malta during DST)
+    # Runs at 06:45 UTC (07:45 Malta during standard time)
     # Only on Monday, Tuesday, Thursday, Friday
-    - cron: '45 5 * * 1,2,4,5'
+    - cron: '45 6 * * 1,2,4,5'
   workflow_dispatch: {}
 
 jobs:
